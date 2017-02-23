@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>兼容性</title>
+	<style>
+		.box{width: 100px;height: 100px;background: red !important;background: pink;}
+	</style>
+</head>
+<body>
+			<!-- important用来提升元素优先级 -->
+<!--[if IE]>
+	这是IE11
+<![endif]-->
+<div class="box" style="background: yellow"></div>
+</body>
+</html>
